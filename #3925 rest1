@@ -1,0 +1,16 @@
+#include <iostream>
+
+int main()
+{
+    long long int n,c,r;
+    std::cin>>n>>c>>r;
+    if(n<(n/c)*c+r)
+    {
+        std::cout<<(n/c)*c+r;
+    }
+    else
+    {
+        std::cout<<(n/c+1)*c+r;
+    }
+    return 0;
+}
